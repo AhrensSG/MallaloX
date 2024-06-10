@@ -32,7 +32,7 @@ const MenuES = () => {
 
   return (
     <main className="w-full min-h-screen py-5 space-y-4">
-      <Toaster richColors position="bottom-center"/>
+      <Toaster richColors position="bottom-center" />
       <Navbar
         carta={carta}
         setCarta={setCarta}
@@ -51,7 +51,6 @@ const MenuES = () => {
         handleMenu={handleMenu}
       />
       <div className="px-2">
-        {carta === true ? <Carta /> : null}
         {carta === true ? <Carta /> : null}
         {menu === true ? <Menu /> : null}
         {bodega === true ? <Bodega /> : null}
