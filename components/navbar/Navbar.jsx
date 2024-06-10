@@ -40,7 +40,9 @@ const Navbar = ({
       </div>
       <div className="w-full flex justify-center items-center gap-4">
         <Image src={"/Line.svg"} width={60} height={1} alt="Line" />
-        <h2 className={`${Dancing.className} text-4xl`}>Bienvenidos</h2>
+        <Link href={"/"}>
+          <h2 className={`${Dancing.className} text-4xl`}>Bienvenidos</h2>
+        </Link>
         <Image src={"/Line.svg"} width={60} height={1} alt="Line" />
       </div>
       <div className="w-full grid place-items-center px-2">
