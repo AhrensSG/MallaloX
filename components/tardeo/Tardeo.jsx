@@ -37,7 +37,7 @@ const Tardeo = ({ english = false }) => {
               <MenuCard
                 key={e.title}
                 title={e.title}
-                englishTitle={e.title}
+                englishTitle={e.englishTitle}
                 description={e.description}
                 englishDescription={e.englishDescription}
                 price={e.price}

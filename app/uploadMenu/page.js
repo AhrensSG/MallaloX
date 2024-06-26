@@ -12,7 +12,11 @@ const UploadMenuPage = () => {
   };
 
   const handleUpload = async () => {
+    if (file.name !== "Menu.jpg") {
+      return toast.error("Verifica que el nombre del archivo sea 'Menu.jpg'");
+    }
     if (file) {
+      toast.info('Uploading File. Please wait!')
       const storageRef = ref(storage, `images/${file.name}`);
       try {
         await uploadBytes(storageRef, file);

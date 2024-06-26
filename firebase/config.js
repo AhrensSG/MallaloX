@@ -9,8 +9,6 @@ const messagingSenderId = process.env.NEXT_PUBLIC_MESSAGIN_SENDER_ID_FIREBASE;
 const appId = process.env.NEXT_PUBLIC_APP_ID_FIREBASE;
 const measurementId = process.env.NEXT_PUBLIC_MEASUREMENT_ID_FIREBASE;
 
-console.log(apiKey)
-
 const firebaseConfig = {
   apiKey,
   authDomain,

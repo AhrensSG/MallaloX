@@ -3,7 +3,7 @@ export default [
     title: "BUUUUF!",
     englishTitle: "BUUUUF!",
     description:
-      "BURRATA, BROTES SILVESTRES, CHERRYS CONFITADOS CON TOMILLO Y NUESTRA SALSA PESTO",
+      "Burrata, brotes silvestres, cherrys confitados con tomillo y nuestra salsa pesto.",
     englishDescription:
       "Burrata, wild sprouts, thyme-infused confit cherry tomatoes, and our pesto sauce.",
     price: "11.50",
@@ -15,7 +15,7 @@ export default [
     title: "SALMONATA",
     englishTitle: "SALMONATA",
     description:
-      "RÚCULA, ALCAPARRONES, QUESO FETA Y SALMÓN FRESCO AHUMADO Y SÉSAMO NEGRO.",
+      "Rúcula, alcaparrones, queso feta y salmón fresco ahumado y sésamo negro.",
     englishDescription:
       "Arugula, capers, feta cheese, fresh smoked salmon, and black sesame.",
     price: "11.90",
@@ -27,7 +27,7 @@ export default [
     title: "LA TERRETA",
     englishTitle: "LA TERRETA",
     description:
-      "TOMATE DE LA HUERTA CON VITETS, CEBOLLLA ENCURTIDA OLIVAS Y NUESTRO ATÚN DE LONJA CONFITADO",
+      "Tomate de la huerta con vitets, cebolla encurtida, olivas y nuestro atún de la lonja confitado.",
     englishDescription:
       "Farm tomato with cherry tomatoes, pickled onion, olives, and our confit market tuna.",
     price: "12.50",

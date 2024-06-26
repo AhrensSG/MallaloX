@@ -1,6 +1,7 @@
 export default [
   {
     title: 'PAN ARTESANAL',
+    englishTitle: "HANDMADE BREAD",
     description: 'Hogaza de masa madre, acompañado de nuestro allioli, tomate valenciano rallado, tapenade y nuestra salsa del día',
     price: '3.90',
     unit: false,
@@ -10,6 +11,7 @@ export default [
   },
   {
     title: 'ESTO SON BRAVAS!',
+    englishTitle: "THESE ARE BRAVAS!",
     description: 'Con salsa secreta y allioli tradicional',
     price: false,
     unit: false,
@@ -19,6 +21,7 @@ export default [
   },
   {
     title: 'CROQUETA DE JAMÓN',
+    englishTitle: "HAM CROQUETTE",
     description: 'Deliciosa croqueta de jamón ibérico',
     price: '2.90',
     unit: true,
@@ -28,6 +31,7 @@ export default [
   },
   {
     title: 'CROQUETA DE TERNERA ESTOFADA Y TARTUFO',
+    englishTitle: "STEWED BEEF CROQUETTE AND TARTUF",
     description: 'Croqueta de carne de ternera estofada con un toque de trufa',
     price: '3.50',
     unit: true,
@@ -37,6 +41,7 @@ export default [
   },
   {
     title: 'PAPAS CON BOQUERONES',
+    englishTitle: "POTATOES WITH ANCHOVIES",
     description: 'Patatas fritas acompañadas de boquerones en vinagre',
     price: '5.50',
     unit: false,
@@ -46,6 +51,7 @@ export default [
   },
   {
     title: 'GUACAMOLE',
+    englishTitle: "GUACAMOLE",
     description: 'Con chips de yuca y tostones de plátano verde',
     price: '8.00',
     unit: false,
@@ -55,7 +61,8 @@ export default [
   },
   {
     title: 'GILDA DE ANCHOA',
-    description: 'Oliva, anchoas de cantábrico y piparra',
+    englishTitle: "ANCHOVY GILDA",
+    description: 'Olivas, anchoas de cantábrico y piparra',
     price: '3.00',
     unit: true,
     garnish: false,

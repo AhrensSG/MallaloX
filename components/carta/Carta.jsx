@@ -7,12 +7,12 @@ import EnsaladasList from "@/food/carta/CartaEnsaladas";
 
 const Carta = ({ english = false }) => {
   const [entrantes, setEntrantes] = useState(true);
-  const [especialChef, setEspecialChef] = useState(false);
+  // const [especialChef, setEspecialChef] = useState(false);
   const [ensaladas, setEnsaladas] = useState(false);
 
   const handleSubMenu = (value, setValue) => {
     setEntrantes(false);
-    setEspecialChef(false);
+    // setEspecialChef(false);
     setEnsaladas(false);
 
     setValue(value);
@@ -20,7 +20,7 @@ const Carta = ({ english = false }) => {
 
   return (
     <div className="divide-y divide-lightBrown space-y-3">
-      <div className="flex justify-between items-center ">
+      <div className="flex justify-start items-center gap-4">
         <button
           onClick={() => handleSubMenu(true, setEntrantes)}
           className={`${Abhaya.className} ${
@@ -31,7 +31,7 @@ const Carta = ({ english = false }) => {
         >
           {english ? "Starters" : "Entrantes"}
         </button>
-        <button
+        {/* <button
           onClick={() => handleSubMenu(true, setEspecialChef)}
           className={`${Abhaya.className} ${
             especialChef
@@ -40,7 +40,7 @@ const Carta = ({ english = false }) => {
           } transition duration-300 font-bold text-base py-0.5 px-2 rounded-lg`}
         >
           Chef's Specials
-        </button>
+        </button> */}
         <button
           onClick={() => handleSubMenu(true, setEnsaladas)}
           className={`${Abhaya.className} ${
@@ -68,7 +68,7 @@ const Carta = ({ english = false }) => {
                 />
               );
             })}
-          {especialChef === true &&
+          {/* {especialChef === true &&
             ChefSpecialsList.map((e) => {
               return (
                 <MenuCard
@@ -81,7 +81,7 @@ const Carta = ({ english = false }) => {
                   halfGarnish={e.halfGarnish}
                 />
               );
-            })}
+            })} */}
           {ensaladas === true &&
             EnsaladasList.map((e) => {
               return (
@@ -117,7 +117,7 @@ const Carta = ({ english = false }) => {
                 />
               );
             })}
-          {especialChef === true &&
+          {/* {especialChef === true &&
             ChefSpecialsList.map((e) => {
               return (
                 <MenuCard
@@ -133,7 +133,7 @@ const Carta = ({ english = false }) => {
                   english={true}
                 />
               );
-            })}
+            })} */}
           {ensaladas === true &&
             EnsaladasList.map((e) => {
               return (
