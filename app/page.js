@@ -26,6 +26,13 @@ export default function Home() {
           MALLALO X
         </h1>
       </div>
+      <div className="flex flex-col w-full justify-center items-center gap-2">
+      <link href="https://awards.infcdn.net/2024/circle_v3.css" rel="stylesheet" />
+
+      <div id="circle_bw" data-length="29" class="circle_bw_black" onclick="if(event.target.nodeName.toLowerCase() != 'a') { var link = this.querySelector('.circle_bw_link'); if(link) { window.open(link.href); } return 0; }">
+        <p className="circle_bw_year justify-center items-center">2024</p>
+      </div>
+      </div>
       <div className="w-full flex justify-center items-center">
         <span className={`${Abhaya.className} font-bold text-xl`}>
           Seleccione su idioma / <br /> select your language
